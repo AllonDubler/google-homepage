@@ -1,0 +1,1 @@
+This project reinforces skills learned in The Odin Project's [web dev 101 course](http://www.theodinproject.com/courses/web-development-101/lessons/html-css) by reverse engineering the Google homepage.
