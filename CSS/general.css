@@ -12,14 +12,17 @@ a {
 }
 
 a:visited {
+    color: rgb(34, 34, 34);
     text-decoration: none;
 }
 
 a:hover {
+    color: rgb(34, 34, 34);
     text-decoration: underline;
 }
 
 a:active {
+    color: rgb(34, 34, 34);
     text-decoration: underline;
 }
 
@@ -28,13 +31,7 @@ a:active {
     padding: 20px 5px;
 }
 
-.left {
-    display: inline-block;
-    float: left;
-}
-
 .right {
-    display: inline-block;
     float: right;
 }
 
@@ -96,7 +93,6 @@ input[type="text"] {
     background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath fill='grey' d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;
     background-size: 18px 18px;
     background-position: 12px;
-    autocomplete: off;
 }
 
 input[type="text"]:hover {
@@ -133,14 +129,14 @@ input[type="text"]:hover {
     height: 36px;
     color: rgb(34, 34, 34);
     font-size: 14px;
-    background-image: -moz-linear-gradient(rgb(245, 245, 245), rgb(241, 241, 241))
+    background-image: -moz-linear-gradient(rgb(245, 245, 245), rgb(241, 241, 241));
     border: 0px;
     border-radius: 4px;
     box-shadow: 0px 0px 3px rgba(0,0,0,0.21);
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
