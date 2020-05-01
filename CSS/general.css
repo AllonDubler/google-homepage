@@ -1,0 +1,152 @@
+body {
+    font-family: arial, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    color: rgb(34, 34, 34);
+    min-width: 1150px;
+}
+
+a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.container {
+    position: relative;
+    padding: 20px 5px;
+}
+
+.left {
+    display: inline-block;
+    float: left;
+}
+
+.right {
+    display: inline-block;
+    float: right;
+}
+
+.nav {
+    display: inline-block;
+    padding: 0px 8px;
+}
+
+.google-apps {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+}
+
+.google-apps:hover {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .75;
+}
+
+.google-account {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    background-image: url('https://toppng.com/public/uploads/preview/user-account-management-logo-user-icon-11562867145a56rus2zwu.png');
+    background-size: 32px 32px;
+    opacity: .55;
+}
+
+.google {
+    clear: both;
+    width: 400px;
+    display: block;
+    position: relative;
+    padding: 90px 0px 15px 0px;
+    margin: 10px auto;
+}
+
+input[type="text"] {
+    width: 400px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath fill='grey' d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px;
+    autocomplete: off;
+}
+
+input[type="text"]:hover {
+    width: 400px;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath fill='grey' d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;
+    background-size: 18px 18px;
+    background-position: 12px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.14), 0px 3px 3px rgba(0,0,0,0.19);
+}
+
+.center {
+    text-align: center;
+}
+
+.button {
+    padding: 10px 15px;
+    height: 36px;
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+    background-color: rgb(242, 242, 242);
+    border: 0px;
+    border-radius: 4px;
+    margin: 5px 4px;
+}
+
+.button:hover {
+    padding: 10px 15px;
+    height: 36px;
+    color: rgb(34, 34, 34);
+    font-size: 14px;
+    background-image: -moz-linear-gradient(rgb(245, 245, 245), rgb(241, 241, 241))
+    border: 0px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.21);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 8px 15px;
+    background-color: rgb(242, 242, 242);
+    font-size: 13.3333px;
+    border-top: solid 1px rgb(228, 228, 228);
+    border-bottom: solid 1px rgb(228, 228, 228);
+}
