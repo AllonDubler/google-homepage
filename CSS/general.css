@@ -36,7 +36,7 @@ a:active {
 }
 
 .nav {
-    display: inline-block;
+    display: inline;
     padding: 0px 8px;
 }
 
@@ -145,4 +145,5 @@ footer {
     font-size: 13.3333px;
     border-top: solid 1px rgb(228, 228, 228);
     border-bottom: solid 1px rgb(228, 228, 228);
+    min-width: 1150px;
 }
